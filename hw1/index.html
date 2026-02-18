@@ -62,7 +62,7 @@ Each point-in-triangle test is O(1)O(1)O(1), meaning the overall runtime is line
 Therefore, my approach is asymptotically no worse than an algorithm that checks every sample inside the bounding box.
 <h3>Screenshot</h3>
 <figure>
-	<img src="/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-8_18-37-28.png" alt="task1" style="width:50%"/>
+	<img src="screenshot_2-8_18-37-28.png" alt="task1" style="width:50%"/>
 	<figcaption>Above is a PNG screenshot of basic/test4.svg using the default viewing parameters with the pixel inspector centered on a diagonal edge region. The diagonal boundary highlights the discrete pixel sampling and clearly shows how pixel centers determine coverage.</figcaption>
 </figure>
 
@@ -106,17 +106,17 @@ To demonstrate the effect, I rendered basic/test4.svg at sample rates 1, 4, and 
 	<table style="width: 100%; text-align: center; border-collapse: collapse;">
 	  <tr>
 		<td style="text-align: center;">
-		  <img src="/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-8_18-37-28.png" width="400px"/>
+		  <img src="screenshot_2-8_18-37-28.png" width="400px"/>
 		  <figcaption>Sample Rate 1.</figcaption>
 		</td>
 		<td style="text-align: center;">
-		  <img src="/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-8_18-37-40.png" width="400px"/>
+		  <img src="screenshot_2-8_18-37-40.png" width="400px"/>
 		  <figcaption>Sample Rate 4.</figcaption>
 		</td>
 	  </tr>
 	  <tr>
 		<td style="text-align: center;">
-		  <img src="/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-8_18-37-43.png" width="400px"/>
+		  <img src="screenshot_2-8_18-37-43.png" width="400px"/>
 		  <figcaption>Sample Rate 16.</figcaption>
 		</td>
 	  </tr>
@@ -124,9 +124,9 @@ To demonstrate the effect, I rendered basic/test4.svg at sample rates 1, 4, and 
 </div>
 		<h2>Task 3: Transforms</h2>
 		I modified robot.svg to create a waving cubeman using hierarchical SVG transforms. I grouped the geometry for the right arm into a <g> element and applied a rotation about the shoulder joint using a translate-rotate-translate sequence so the arm pivots naturally from the body rather than rotating about the origin. I also adjusted the transform so the forearm rotates around an elbow pivot to make the “wave” motion more expressive. This demonstrates hierarchical modeling: transforming a parent group moves all of its child shapes consistently, allowing articulated motion using simple matrix transforms. I also changed his colors to be a wonky mixture of red and blue.
-/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-9_13-45-23.png
+screenshot_2-9_13-45-23.png
 <td style="text-align: center;">
-	<img src="/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-9_13-45-23.png" width="400px"/>
+	<img src="screenshot_2-9_13-45-23.png" width="400px"/>
   </td>
 		<h2>Task 4: Barycentric coordinates</h2>
 		Barycentric coordinates are a way of expressing any point inside a triangle as a weighted combination of the triangle’s three vertices.
@@ -161,10 +161,10 @@ This linearly blends the vertex colors. Points near the red vertex appear red. P
 	<table style="width: 100%; text-align: center; border-collapse: collapse;">
 	  <tr>
 		<td style="text-align: center;">
-		  <img src="/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-9_13-51-19.png" width="400px"/>
+		  <img src="screenshot_2-9_13-51-19.png" width="400px"/>
 		</td>
 		<td style="text-align: center;">
-		  <img src="/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-9_13-58-40.png" width="400px"/>
+		  <img src="screenshot_2-9_13-58-40.png" width="400px"/>
 		</td>
 	  </tr>
 	</table>
@@ -219,21 +219,21 @@ This produces a weighted average of four texels, resulting in smoother transitio
 	<table style="width: 100%; text-align: center; border-collapse: collapse;">
 	  <tr>
 		<td style="text-align: center;">
-		  <img src="/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-10_16-15-3.png" width="400px"/>
+		  <img src="screenshot_2-10_16-15-3.png" width="400px"/>
 		  <figcaption>Nearest sampling at 1 sample per pixel.</figcaption>
 		</td>
 		<td style="text-align: center;">
-		  <img src="/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-10_16-15-6.png" width="400px"/>
+		  <img src="screenshot_2-10_16-15-6.png" width="400px"/>
 		  <figcaption>Binlinear sampling at 1 samples per pixel.</figcaption>
 		</td>
 	  </tr>
 	  <tr>
 		<td style="text-align: center;">
-		  <img src="/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-10_16-15-12.png" width="400px"/>
+		  <img src="screenshot_2-10_16-15-12.png" width="400px"/>
 		  <figcaption>Nearest Sampling at 16 sample per pixel.</figcaption>
 		</td>
 		<td style="text-align: center;">
-			<img src="/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-10_16-15-16.png" width="400px"/>
+			<img src="screenshot_2-10_16-15-16.png" width="400px"/>
 			<figcaption>Bilinear sampling at 16 samples per pixel.</figcaption>
 		  </td>
 	  </tr>
@@ -346,21 +346,21 @@ This level value is:
 <table style="width: 100%; text-align: center; border-collapse: collapse;">
 	<tr>
 	  <td style="text-align: center;">
-		<img src="/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-11_13-39-53.png" width="400px"/>
+		<img src="screenshot_2-11_13-39-53.png" width="400px"/>
 		<figcaption>Zero Nearest.</figcaption>
 	  </td>
 	  <td style="text-align: center;">
-		<img src="/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-11_13-39-59.png" width="400px"/>
+		<img src="screenshot_2-11_13-39-59.png" width="400px"/>
 		<figcaption>Linear Linear.</figcaption>
 	  </td>
 	</tr>
 	<tr>
 	  <td style="text-align: center;">
-		<img src="/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-11_13-40-3.png" width="400px"/>
+		<img src="screenshot_2-11_13-40-3.png" width="400px"/>
 		<figcaption>Nearest Linear.</figcaption>
 	  </td>
 	  <td style="text-align: center;">
-		  <img src="/Users/fathimashaikh/Desktop/hw-webpages-swushycupcakes/hw1/screenshot_2-11_13-40-8.png" width="400px"/>
+		  <img src="screenshot_2-11_13-40-8.png" width="400px"/>
 		  <figcaption>Zero Linear.</figcaption>
 		</td>
 	</tr>
